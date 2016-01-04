@@ -1,0 +1,451 @@
+deleted_tag_types: 1
+	addr:postcode=1010-A: 1
+
+updated_city_types: 1
+	caracas: Caracas
+
+custom_tag_values: 5
+	<addr:street=Los Chaguaramos,addr:postcode=1060>: 1
+	<addr:full=Centro Comercial Santa Fe,addr:postcode=1080>: 1
+	<addr:full=Centro Comercial Santa Fe, Local S-22,addr:postcode=1080>: 1
+	<addr:full=Centro Comercial Santa Fe, Nivel C1, Local C1-16,addr:postcode=1080>: 1
+	<addr:street=Av. Principal de la Haciendita,addr:postcode=1000>: 1
+
+updated_attribute_types: 3
+	addr:ful: 5
+	addr:full: 1
+	addr:full: 1
+
+updated_street_types: 431
+	Klm 14 de La Panamericana: Kilómetro 14 de La Panamericana
+	Av. Principal de La Castellana: Avenida Principal de La Castellana
+	Av. Principal de La Hacienda: Avenida Principal de La Hacienda
+	Av. Principal del Cafetal: Avenida Principal del Cafetal
+	Av. Roosevelt: Avenida Roosevelt
+	Av. LAs Acacias: Avenida LAs Acacias
+	Av. Quito: Avenida Quito
+	Av. Aeropuerto: Avenida Aeropuerto
+	Av. El Cuartel: Avenida El Cuartel
+	Carretera: Petare - Santa Lucia: Carretera Petare - Santa Lucia
+	Av. Puente Hierro: Avenida Puente Hierro
+	Av. Las Acacias: Avenida Las Acacias
+	Av. Sorocaima: Avenida Sorocaima
+	Av. Santa Belén: Avenida Santa Belén
+	Av. Circunvalación: Avenida Circunvalación
+	Av. Nueva Granada: Avenida Nueva Granada
+	Av. Santa María: Avenida Santa María
+	Av. Principal de San Marino: Avenida Principal de San Marino
+	Av. Aristides Calvani: Avenida Aristides Calvani
+	Carretera: Sartenejas: Carretera Sartenejas
+	Av. Vollmer: Avenida Vollmer
+	3ª Av. de Altamira: 3ª Avenida de Altamira
+	Av. San Sebastián: Avenida San Sebastián
+	Av. Principal de la Hacienda: Avenida Principal de la Hacienda
+	Av. Santiago de León: Avenida Santiago de León
+	Av. Teherán: Avenida Teherán
+	3ª Av. de Santa Eduvigis: 3ª Avenida de Santa Eduvigis
+	Av. Intercomunal de Antímano: Avenida Intercomunal de Antímano
+	Av. Mahatma Gandhi: Avenida Mahatma Gandhi
+	2ª Av. Los Palos Grandes: 2ª Avenida Los Palos Grandes
+	Av. Principal de Santa Sofia: Avenida Principal de Santa Sofia
+	Av. Alejandro Carrasquel: Avenida Alejandro Carrasquel
+	Av. San Juan Bosco: Avenida San Juan Bosco
+	Av. Principal de Santa Marta: Avenida Principal de Santa Marta
+	CC Litoral: Centro Comercial Litoral
+	Av. Alameda: Avenida Alameda
+	Av. Principal Las Vegas de Petare: Avenida Principal Las Vegas de Petare
+	Av. El Buen Pastor: Avenida El Buen Pastor
+	Av. Caicara: Avenida Caicara
+	Av. Norte: Avenida Norte
+	Av. Caroní: Avenida Caroní
+	Av. Sur: Avenida Sur
+	Av. Principal Santa Sofia: Avenida Principal Santa Sofia
+	Av. Veracrúz: Avenida Veracrúz
+	Av. Principal de la Floresta: Avenida Principal de la Floresta
+	Av. Naiguatá: Avenida Naiguatá
+	5ª Av. de Montecristo: 5ª Avenida de Montecristo
+	Av. Leonardo Ruiz Pineda: Avenida Leonardo Ruiz Pineda
+	Av. El Tigre: Avenida El Tigre
+	Av. Urdaneta: Avenida Urdaneta
+	Av. San Franciso: Avenida San Franciso
+	Av. Francisco de Miranda: Avenida Francisco de Miranda
+	Av. Principal de la Yaguara: Avenida Principal de la Yaguara
+	Av. La Salle: Avenida La Salle
+	Av. Miranda: Avenida Miranda
+	Autopista: Caracas - La Guaira: Autopista Caracas - La Guaira
+	Av. Simón Planas: Avenida Simón Planas
+	Av. Panteón: Avenida Panteón
+	Av. 1 de Bello Monte: Avenida 1 de Bello Monte
+	1ª Av. de Santa Eduvigis: 1ª Avenida de Santa Eduvigis
+	Av. interna Fuerte Tiuna: Avenida interna Fuerte Tiuna
+	Av. 2 Las Flores: Avenida 2 Las Flores
+	Distribuidor: Caricuao: Distribuidor Caricuao
+	Av. Buena Vista: Avenida Buena Vista
+	Av. José María Vargas: Avenida José María Vargas
+	Av. Universidad: Avenida Universidad
+	Av. Luís de Camoes: Avenida Luís de Camoes
+	Av. José Martí: Avenida José Martí
+	Av. José Félix Sosa: Avenida José Félix Sosa
+	Av. Mara: Avenida Mara
+	Carretera: Caracas - Los Teques: Carretera Caracas - Los Teques
+	Av. Francisco Solano: Avenida Francisco Solano
+	Av. Las Estancias: Avenida Las Estancias
+	Av. Los Manguitos: Avenida Los Manguitos
+	Av. Juan Felipe: Avenida Juan Felipe
+	Av. Soublette: Avenida Soublette
+	Av. Principal de Ruíz Pineda: Avenida Principal de Ruíz Pineda
+	Av. Los Jabillos: Avenida Los Jabillos
+	Av. Principal El Cafetal: Avenida Principal El Cafetal
+	Tunel El Calvario: Túnel El Calvario
+	Av. Baruta: Avenida Baruta
+	Av. D de Las Fuentes: Avenida D de Las Fuentes
+	Av. Oeste 13: Avenida Oeste 13
+	Av Principal de Buena Vista: Avenida Principal de Buena Vista
+	Av. Oeste 11: Avenida Oeste 11
+	Prolongación Av. Libertador: Prolongación Avenida Libertador
+	Av. La Guairita: Avenida La Guairita
+	Av. Principal de Los Ruices: Avenida Principal de Los Ruices
+	2ª Av. de Catia: 2ª Avenida de Catia
+	3ª Av. de Catia: 3ª Avenida de Catia
+	Av. Las Fuentes: Avenida Las Fuentes
+	Av.Trieste: Avenida Trieste
+	Av. Carlos Raúl Villanueva: Avenida Carlos Raúl Villanueva
+	Av. Ávila: Avenida Ávila
+	Av. Andrés Bello: Avenida Andrés Bello
+	Av. Los Castaños: Avenida Los Castaños
+	Av. A de Caurimare: Avenida A de Caurimare
+	Av. Santa Ana: Avenida Santa Ana
+	Av. Caurimare: Avenida Caurimare
+	Av. Principal de Propatria: Avenida Principal de Propatria
+	Av. Caracas: Avenida Caracas
+	Av. Rio de Janeiro: Avenida Rio de Janeiro
+	Av. Sur Altamira: Avenida Sur Altamira
+	Av. Loira: Avenida Loira
+	Av. A de la Paz: Avenida A de la Paz
+	Av. Agustin Codazi: Avenida Agustin Codazi
+	Av. Libertador: Avenida Libertador
+	Av. Colegio de Arquitectos: Avenida Colegio de Arquitectos
+	Av. Principal de Luis Hurtado: Avenida Principal de Luis Hurtado
+	Av. Ginebra: Avenida Ginebra
+	Av. Los Cortijos: Avenida Los Cortijos
+	Av. Principal del Paraiso: Avenida Principal del Paraiso
+	Av. Lima: Avenida Lima
+	Av. Principal de Bello Monte: Avenida Principal de Bello Monte
+	Bulevard de Sabana Grande: Bulevar de Sabana Grande
+	Av. Berrezbeitia: Avenida Berrezbeitia
+	Av. Manuel Felipe Tovar: Avenida Manuel Felipe Tovar
+	Av. Trujillo: Avenida Trujillo
+	Av. Bogotá: Avenida Bogotá
+	Av. El Empalme: Avenida El Empalme
+	Av. Teresa de La Parra: Avenida Teresa de La Parra
+	Av. José Ángel Lamas: Avenida José Ángel Lamas
+	Av. Beethoven: Avenida Beethoven
+	Av. Pichincha: Avenida Pichincha
+	Av. Andrés Galarraga: Avenida Andrés Galarraga
+	Av. La Estancia: Avenida La Estancia
+	Av. Uslar: Avenida Uslar
+	Av. Luis Roche: Avenida Luis Roche
+	3ª Av. Los Palos Grandes: 3ª Avenida Los Palos Grandes
+	Av. José Antonio Páez: Avenida José Antonio Páez
+	Av.Fuerzas Armadas: Avenida Fuerzas Armadas
+	Av. Principal de Campo Claro: Avenida Principal de Campo Claro
+	Av. Principal de Casalta: Avenida Principal de Casalta
+	Av. Principal del Cementerio: Avenida Principal del Cementerio
+	Av. Eugenio Mendoza: Avenida Eugenio Mendoza
+	Av. Yare: Avenida Yare
+	Av. La Paz: Avenida La Paz
+	Av. Sanatorio del Ávila: Avenida Sanatorio del Ávila
+	Av. Principal de Caricuao: Avenida Principal de Caricuao
+	Av. A-1 del Pinar: Avenida A-1 del Pinar
+	Bolevar del Cementerio: Bulevar del Cementerio
+	Av. Sanz: Avenida Sanz
+	Av. Principal del Mirador: Avenida Principal del Mirador
+	Av. A-2 del Pinar: Avenida A-2 del Pinar
+	Av. El Centro: Avenida El Centro
+	Av. Este: Avenida Este
+	Av. 21 de noviembre: Avenida 21 de noviembre
+	Av. Del Ávila: Avenida Del Ávila
+	2ª Av. de Santa Eduvigis: 2ª Avenida de Santa Eduvigis
+	Av. Sur 2 bis: Avenida Sur 2 bis
+	Av. Principal de La Urbina: Avenida Principal de La Urbina
+	Av. Oeste 5: Avenida Oeste 5
+	Av. Oeste 6: Avenida Oeste 6
+	Av. Oeste 7: Avenida Oeste 7
+	Av. Oeste 0: Avenida Oeste 0
+	Av. Francisco Pimentel: Avenida Francisco Pimentel
+	Av. Oeste 2: Avenida Oeste 2
+	Av. Oeste 3: Avenida Oeste 3
+	Av. El Estadium: Avenida El Estadium
+	Av. Oeste 8: Avenida Oeste 8
+	Av. Oeste 9: Avenida Oeste 9
+	Av. Circunvalación del Sol: Avenida Circunvalación del Sol
+	Av. Oeste 20: Avenida Oeste 20
+	Av. Corozo: Avenida Corozo
+	Av. Maturín: Avenida Maturín
+	Av. Centroamerica: Avenida Centroamerica
+	Av. Marqués del Toro: Avenida Marqués del Toro
+	Av. Principal de Casalta III: Avenida Principal de Casalta III
+	Av. Los Ilustres: Avenida Los Ilustres
+	Av. Las Palmas: Avenida Las Palmas
+	Av. Louis Braille: Avenida Louis Braille
+	Av. Nicaragua: Avenida Nicaragua
+	Av. Ernesto Blohm: Avenida Ernesto Blohm
+	Av. San Miguel: Avenida San Miguel
+	Av. Roca Tarpeya: Avenida Roca Tarpeya
+	Av. Anauco: Avenida Anauco
+	Av. Araure: Avenida Araure
+	Av. George Washington: Avenida George Washington
+	Av. Principal de Boleita: Avenida Principal de Boleita
+	Av. este 8 bis: Avenida este 8 bis
+	Av. Este 11: Avenida Este 11
+	Av. Del Parque : Avenida Del Parque 
+	Av. Leonardo Da Vinci: Avenida Leonardo Da Vinci
+	Av. Motatán: Avenida Motatán
+	Av. García González Da Silva: Avenida García González Da Silva
+	Av. Oeste 4: Avenida Oeste 4
+	Av. Norte 4: Avenida Norte 4
+	Av. Norte 2: Avenida Norte 2
+	Av. Norte 3: Avenida Norte 3
+	Av. Norte 1: Avenida Norte 1
+	Av. Chacao: Avenida Chacao
+	Av. Universitaria: Avenida Universitaria
+	Av. Norte 9: Avenida Norte 9
+	Av. O Higgins: Avenida O Higgins
+	Av. Budapest: Avenida Budapest
+	Av. : Avenida 
+	Av. Rómulo Gallegos: Avenida Rómulo Gallegos
+	Av. París: Avenida París
+	Av. La Estrella: Avenida La Estrella
+	Km 15, Carretera Panamericana, recta de Las Minas: Kilómetro 15, Carretera Panamericana, recta de Las Minas
+	Av. Bicentenaria: Avenida Bicentenaria
+	Av. 3 de Propatria: Avenida 3 de Propatria
+	Av. La Facultad: Avenida La Facultad
+	Av. Intercomunal de Antimano: Avenida Intercomunal de Antimano
+	Av. Principal de Altavista: Avenida Principal de Altavista
+	Av. Blandín: Avenida Blandín
+	Prolongacion Av. Fernando Peñalver: Prolongación Avenida Fernando Peñalver
+	Av. Miguel Otero Silva: Avenida Miguel Otero Silva
+	Av. Miguelangel: Avenida Miguelangel
+	Av. Cajigal: Avenida Cajigal
+	Vìa Terminal Internacional: Vía Terminal Internacional
+	Km. 4 Carretera Vieja Caracas - La Guaira: Kilómetro 4 Carretera Vieja Caracas - La Guaira
+	Av. Principal de Montecristo: Avenida Principal de Montecristo
+	Av. Francisco Lazo Martí: Avenida Francisco Lazo Martí
+	Av. E de la Carlota: Avenida E de la Carlota
+	Vía: Terminal Nacional: Vía Terminal Nacional
+	Av. Mohedano: Avenida Mohedano
+	Av. Guaicaipuro: Avenida Guaicaipuro
+	Av. El Carmen: Avenida El Carmen
+	Av. Principal La Guairita: Avenida Principal La Guairita
+	Av. Intercomunal de Coche: Avenida Intercomunal de Coche
+	Av. La Rotaria: Avenida La Rotaria
+	6ª Av. de Altamira: 6ª Avenida de Altamira
+	Av. Galipán: Avenida Galipán
+	Av. Principal Country Club: Avenida Principal Country Club
+	2ª Av. de Campo Alegre: 2ª Avenida de Campo Alegre
+	Av. Américo Vespúcio: Avenida Américo Vespúcio
+	Av. D de la Carlota: Avenida D de la Carlota
+	Av. 3 de las Delicias: Avenida 3 de las Delicias
+	Av. Paseo Los Ilustres: Avenida Paseo Los Ilustres
+	Av. Roma: Avenida Roma
+	CC Cepan, Urb. Industrial Las Minas Norte: Centro Comercial Cepan, Urbanización Industrial Las Minas Norte
+	Av. Este 7: Avenida Este 7
+	Av. Este 8: Avenida Este 8
+	Av. Leonardo Ruíz Pineda: Avenida Leonardo Ruíz Pineda
+	Av. Los Erasos: Avenida Los Erasos
+	Av. Este 5: Avenida Este 5
+	Av. Este 6: Avenida Este 6
+	Av. Principal de Sebucán: Avenida Principal de Sebucán
+	Av. Este 0: Avenida Este 0
+	Av. Este 2: Avenida Este 2
+	Av. Este 3: Avenida Este 3
+	Av. Del Golf: Avenida Del Golf
+	Av. Principal de Bello Campo: Avenida Principal de Bello Campo
+	Av. Este 18: Avenida Este 18
+	Av. Morán: Avenida Morán
+	Av. Guayana: Avenida Guayana
+	Av. Nueva York: Avenida Nueva York
+	Av. Los Chorros: Avenida Los Chorros
+	2ª Av. de Montalbán: 2ª Avenida de Montalbán
+	Av. Tamanaco: Avenida Tamanaco
+	Av. E del Pinar: Avenida E del Pinar
+	Av. Orinoco: Avenida Orinoco
+	Distribuidor: Antímano: Distribuidor Antímano
+	Av. México: Avenida México
+	Av. 2 Los Cortijos: Avenida 2 Los Cortijos
+	Av. Oropeza Castillo: Avenida Oropeza Castillo
+	Av. San Felipe: Avenida San Felipe
+	Av. Principal Los Cortijos: Avenida Principal Los Cortijos
+	Av. Víctor Batista: Avenida Víctor Batista
+	Av.Oeste 5: Avenida Oeste 5
+	Av. Santos Erminy: Avenida Santos Erminy
+	Av. Los Mangos: Avenida Los Mangos
+	Av. Perimetral: Avenida Perimetral
+	Av. 2 de las Delicias: Avenida 2 de las Delicias
+	Av. Álamo: Avenida Álamo
+	Av Principal Brisas de Oriente: Avenida Principal Brisas de Oriente
+	Av. Principal de la Haciendita: Avenida Principal de la Haciendita
+	Av. Principal de Playa Grande: Avenida Principal de Playa Grande
+	Prolongación Av. Las Acacias: Prolongación Avenida Las Acacias
+	Distribuidor: Cienpiés: Distribuidor Cienpiés
+	Av. San Carlos: Avenida San Carlos
+	Av Alejandro Carrasquel: Avenida Alejandro Carrasquel
+	Av. Principal de UD-4: Avenida Principal de UD-4
+	Av. Oeste 16: Avenida Oeste 16
+	Av. Oeste 14: Avenida Oeste 14
+	Av. Oeste 12: Avenida Oeste 12
+	Av. Cataluña: Avenida Cataluña
+	Av. Principal del Bosque: Avenida Principal del Bosque
+	Av. La Haya: Avenida La Haya
+	Av. San Gabriel: Avenida San Gabriel
+	Av. Oeste 18: Avenida Oeste 18
+	1ª Av. de Montecristo: 1ª Avenida de Montecristo
+	Av. Sur 21: Avenida Sur 21
+	Av. El Paují: Avenida El Paují
+	Av. Sur 23: Avenida Sur 23
+	Av. Sur 25: Avenida Sur 25
+	Av. Principal de Caurimare: Avenida Principal de Caurimare
+	Km. 7, Autopista Regional del Centro: Kilómetro 7, Autopista Regional del Centro
+	Av. Minerva: Avenida Minerva
+	Av. El Sequión: Avenida El Sequión
+	Boulevar de Catia / España: Bulevar de Catia / España
+	carretera Caracas - El Junquito: Carretera Caracas - El Junquito
+	Av. Gran colombia: Avenida Gran colombia
+	Av. Casanova: Avenida Casanova
+	Boulevard Los Nuevos Teques: Bulevar Los Nuevos Teques
+	Boulevar Ruíz Pineda: Bulevar Ruíz Pineda
+	5ª Av. de Catia: 5ª Avenida de Catia
+	Av. Central de Playa Grande: Avenida Central de Playa Grande
+	C.C. Los Altos, Avenida Francisco Salias: Centro Comercial Los Altos, Avenida Francisco Salias
+	Av. Este 12 bis: Avenida Este 12 bis
+	7ª Av. de Catia: 7ª Avenida de Catia
+	Av. Hollywood: Avenida Hollywood
+	Av. Sur 11 bis: Avenida Sur 11 bis
+	Av. Varsovia: Avenida Varsovia
+	Av. Principal de Las Mercedes: Avenida Principal de Las Mercedes
+	Av. Los Laureles: Avenida Los Laureles
+	Av. Este 14: Avenida Este 14
+	Av. Este 15: Avenida Este 15
+	Av. Este 12: Avenida Este 12
+	Av. Este 13: Avenida Este 13
+	Av. Milán: Avenida Milán
+	Av. José María España: Avenida José María España
+	Av. Sur 13 bis: Avenida Sur 13 bis
+	Av. San Martín: Avenida San Martín
+	Av. Sol: Avenida Sol
+	Carretera: Panamericana: Carretera Panamericana
+	Av. A de la Carlota: Avenida A de la Carlota
+	Av. San José del Ávila: Avenida San José del Ávila
+	Av. Carlos Soublette: Avenida Carlos Soublette
+	Av. Papelón: Avenida Papelón
+	Av. El Ejercito: Avenida El Ejercito
+	Av. San Ignacio de Loyola: Avenida San Ignacio de Loyola
+	3ª Av. de Montalbán: 3ª Avenida de Montalbán
+	Av. Guarateri: Avenida Guarateri
+	Av. Las Repúblicas: Avenida Las Repúblicas
+	Av. Hospital: Avenida Hospital
+	Av. C de Caurimare: Avenida C de Caurimare
+	Av. Arturo Michelena: Avenida Arturo Michelena
+	Av. Bolívar: Avenida Bolívar
+	Av. Gamboa: Avenida Gamboa
+	Av. Venezuela: Avenida Venezuela
+	Av. Principal de Alto Prado: Avenida Principal de Alto Prado
+	Av.Principal del Bosque: Avenida Principal del Bosque
+	Distribuidor: Caurimare: Distribuidor Caurimare
+	Av. 1 Los Mangos: Avenida 1 Los Mangos
+	Av. Los Samanes: Avenida Los Samanes
+	Av. Fuerzas Armadas: Avenida Fuerzas Armadas
+	Av. Horacio Lemoine: Avenida Horacio Lemoine
+	Av. 1: Avenida 1
+	Av. Las Mercedes: Avenida Las Mercedes
+	Av. Principal de los Chorros: Avenida Principal de los Chorros
+	Av. Principal de Maripérez: Avenida Principal de Maripérez
+	2ª  Av. de Campo Alegre: 2ª  Avenida de Campo Alegre
+	Av. Los Próceres: Avenida Los Próceres
+	Av. Los Pinos: Avenida Los Pinos
+	Av. Santander: Avenida Santander
+	Av. Intercomunal del Valle: Avenida Intercomunal del Valle
+	Av. Instituto: Avenida Instituto
+	Av. Juan Bautista Arismendi: Avenida Juan Bautista Arismendi
+	Distribuidor: La Bandera: Distribuidor La Bandera
+	2ªTransversal Los Palos Grandes: 2ª Transversal Los Palos Grandes
+	4ª Av. Los Palos Grandes: 4ª Avenida Los Palos Grandes
+	Av. Capitán Felipe Esteves: Avenida Capitán Felipe Esteves
+	Av. Presidente Medina: Avenida Presidente Medina
+	7ª Av. de Altamira: 7ª Avenida de Altamira
+	Av. Principal de Macaracuay: Avenida Principal de Macaracuay
+	Av. La Armada: Avenida La Armada
+	Av Principal De Week End: Avenida Principal De Week End
+	Av. Neverí: Avenida Neverí
+	Distribuidor: Altamira: Distribuidor Altamira
+	Av. Norte 10: Avenida Norte 10
+	Av. Norte 11: Avenida Norte 11
+	Av. Norte 13: Avenida Norte 13
+	Av. Norte 15: Avenida Norte 15
+	Av. Norte 17: Avenida Norte 17
+	Av. Principal Brisas de Oriente: Avenida Principal Brisas de Oriente
+	Av. Bolivia: Avenida Bolivia
+	Av. Guzmán Blanco: Avenida Guzmán Blanco
+	Av. Sur 2: Avenida Sur 2
+	Av. Sur 3: Avenida Sur 3
+	calle tacagua: Calle tacagua
+	Av. Sur 1: Avenida Sur 1
+	Av. Sur 4: Avenida Sur 4
+	Av. Sur 5: Avenida Sur 5
+	Av. Central: Avenida Central
+	Av. Sur 8: Avenida Sur 8
+	Av. Sur 9: Avenida Sur 9
+	Av. España: Avenida España
+	Av. Trieste: Avenida Trieste
+	Av.: Avenida 
+	2ª Av. de Las Fuentes: 2ª Avenida de Las Fuentes
+	Av. La Cortada de Catia: Avenida La Cortada de Catia
+	Av. El Parque: Avenida El Parque
+	Av. José Antonio Paez: Avenida José Antonio Paez
+	Av. José Felix Sosa: Avenida José Felix Sosa
+	Distribuidor: El Llanito: Distribuidor El Llanito
+	Av. Los Proceres: Avenida Los Proceres
+	Av. Sucre: Avenida Sucre
+	Av.Aeropuerto: Avenida Aeropuerto
+	Av. Principal del Algodonal: Avenida Principal del Algodonal
+	Av. Baralt: Avenida Baralt
+	Av. Juan Pablo II: Avenida Juan Pablo II
+	Av. Ayacucho: Avenida Ayacucho
+	Av. Los Bucares: Avenida Los Bucares
+	1ª Av. Los Palos Grandes: 1ª Avenida Los Palos Grandes
+	Av. Paseo de la Resistencia Indígena: Avenida Paseo de la Resistencia Indígena
+	Av. Ingenieria: Avenida Ingenieria
+	Av. B de la Carlota: Avenida B de la Carlota
+	Av. Principal de Prados del Este: Avenida Principal de Prados del Este
+	Av. Guzman Blanco: Avenida Guzman Blanco
+	Av. Principal del Estadio: Avenida Principal del Estadio
+	Av. Chama: Avenida Chama
+	Av. Don Bosco: Avenida Don Bosco
+	carretera Vieja Caracas - Los teques: Carretera Vieja Caracas - Los teques
+	Av. Palmarito: Avenida Palmarito
+	Autopista: Francisco Fajardo: Autopista Francisco Fajardo
+	Av. Este 10 bis: Avenida Este 10 bis
+	Av. Principal Lebrún: Avenida Principal Lebrún
+	Vía: Terminal Internacional: Vía Terminal Internacional
+	Av. Carabobo: Avenida Carabobo
+	Av. C de la Carlota: Avenida C de la Carlota
+	Av. Mónaco: Avenida Mónaco
+	Av. Boyacá: Avenida Boyacá
+	Av. Principal Sierra Brava: Avenida Principal Sierra Brava
+	Av. Principal de La Carlota: Avenida Principal de La Carlota
+	Av. Lecuna: Avenida Lecuna
+	Av. Cantaura: Avenida Cantaura
+	Av. Washington: Avenida Washington
+	Av. Ciudad Universitaria: Avenida Ciudad Universitaria
+	Av. del Parque: Avenida del Parque
+	4ª Av. de Altamira: 4ª Avenida de Altamira
+	Av. Principal de la Trinidad: Avenida Principal de la Trinidad
+	Av. Río Paragua: Avenida Río Paragua
+	Av. Sur 14: Avenida Sur 14
+	Av. Sur 16: Avenida Sur 16
+	Av. Sur 17: Avenida Sur 17
+	Av. Sur 10: Avenida Sur 10
+	Av. Sur 12: Avenida Sur 12
+	Av. Sur 13: Avenida Sur 13
+	Av. Sur 19: Avenida Sur 19
+

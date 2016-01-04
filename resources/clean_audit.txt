@@ -1,0 +1,373 @@
+Unrecognized lat_types: 0
+
+Unrecognized city_types: 59
+	Carmen de Uria; 2
+	Mare; 2
+	10 de Marzo; 1
+	Ciudad Caribia; 3
+	Los Castores, San Antonio de los altos, Miranda, Venezuela; 50
+	Montaña Alta; 1
+	Parroquia San Juan; 1
+	San Diego de Los Altos; 3
+	Las Minas Norte; 1
+	Parroquia Catia la Mar; 7
+	Mamo; 1
+	Caraballeda; 3
+	Las Minas; 1
+	Parroquia San Antonio de los Altos; 38
+	Pariata; 7
+	Las Polonias; 1
+	Tanaguarenas; 3
+	Buena Vista; 3
+	Mampote; 1
+	Urb. Sierra Brava, San Antonio de los Altos, Venezuela; 1
+	Parroquia Cecilio Acosta; 14
+	El Tigrillo; 1
+	Urbanización La Morita, Municipio Los Salias, Estado Miranda, Venezuela; 1
+	Charallave; 6
+	Catia la Mar; 2
+	Caribe; 1
+	Urbanización Industrial Las Minas Norte, San Antonio de Los Altos, Venezuela; 15
+	Playa Grande; 14
+	Parroquia San Antonio de Los Altos; 12
+	Tacoa; 1
+	Marapa; 1
+	Maiquetía; 74
+	San Antonio de los Altos; 3
+	Catia La Mar; 38
+	Montesano; 1
+	Guaracarumbo; 1
+	Parroquia Leoncio Martínez; 1
+	San Antonio de Los Altos; 5
+	Llano Alto; 1
+	Urb.El Caribe; 1
+	Los Teques; 48
+	Picure; 1
+	Maiquetia; 20
+	Parroquia 23 de Enero; 1
+	San Antonio de los altos; 2
+	Playa Grabde; 1
+	Carrizal; 8
+	Turumo; 1
+	Maracay; 2
+	Parroquia Carrizal; 7
+	Parroquia Los Teques; 1
+	Punta de Mulatos; 3
+	La Guaira; 18
+	Naiguatá; 3
+	El Cojo; 1
+	Playa Verde; 2
+	Week-end; 1
+	Macuto; 12
+	La Atlántida; 2
+
+Unrecognized state_types: 1
+	Vargas; 38
+
+Unrecognized country_types: 0
+
+Unrecognized street_types: 91
+	Mosen
+		Mosen Sol
+	Aeropuerto
+		Aeropuerto La Carlota
+	López
+		López de Ceballos
+	Buenos
+		Buenos Aires
+	23
+		23 de enero
+		23 de Enero
+	Oscar
+		Oscar Machado
+	Cecilio
+		Cecilio Acosta
+	Luis
+		Luis Razzetti
+	Parque
+		Parque Residencial La Quinta
+	Reinaldo
+		Reinaldo Jahn
+	Adriana
+		Adriana Johanna
+	Cacique
+		Cacique Tiuna
+	C-4
+		C-4 de Caurimare
+	San
+		San Carlos
+		San José
+		San Fidel
+		San Mateo
+		San Pascual
+		San Rafael
+		San Antonio
+	Cristo
+		Cristo Rey
+	Rio
+		Rio de Janeiro
+	Caminería
+		Caminería del Parque
+		Caminería Zoo
+	Maria
+		Maria Auxiliadora
+	Nicolás
+		Nicolás Copérnico
+	Zona
+		Zona 1
+	Hospital
+		Hospital José I. Baldó
+		Hospital Pérez Carreño
+	Bella
+		Bella Artes
+		Bella Vista
+	Conjunto
+		Conjunto Residencial Canagua
+	Álvarez
+		Álvarez Michaud
+	Sur
+		Sur 25
+	Rufino
+		Rufino Blanco
+	Dámaso
+		Dámaso Villalba
+	Cruz
+		Cruz verde
+	Mariscal
+		Mariscal Sucre
+	Vuelta
+		Vuelta al Casquillo
+	Domingo
+		Domingo Luciani
+	Padre
+		Padre Machado
+	Plaza
+		Plaza Caño Amarillo
+		Plaza Caracas
+		Plaza Diego Ibarra
+	Bárbaro
+		Bárbaro Rívas
+	Gran
+		Gran Avenida
+	Adrián
+		Adrián Rodríguez
+	El
+		El Matadero
+		El Empalme
+		El Buen Pastor
+		El Rosario
+		El Comercio
+		El Pasaje
+		El Recreo
+		El Parque
+		El Desvío
+		El Colegio
+		El Manguito
+		El Carmen
+		El Paseo
+		El Cristo
+		El limón
+		El Vigia
+		El Algodonal
+		El Cortijo
+		El Limón
+		El Bosque
+	Mirador
+		Mirador Boyacá
+	Guzmán
+		Guzmán Blanco
+	Lisandro
+		Lisandro Alvarado
+	Río
+		Río Manaure
+	Sendero:
+		Sendero: Caracas - Galipán - Macuto
+	Pedro
+		Pedro Emilio Coll
+	Puente:
+		Puente: Unión
+		Puente: Los Leones
+	Juan
+		Juan Germán Róscio
+	Universidad
+		Universidad Metropolitana
+		Universidad Santa Maria
+	José
+		José Félix Rivas
+		José Manuel Sanz
+		José Félix Rívas
+	Los
+		Los hornos
+		Los Naranjos
+		Los Eucaliptos
+		Los Jardines
+		Los Cedros
+		Los Ángeles
+		Los Médanos
+		Los Laboratorios
+		Los Jabillos
+		Los Laureles
+		Los Manolos
+		Los Pinos
+		Los Estadios
+		Los Hornos
+		Los Cerritos
+		Los cedros
+		Los Chaguaramos
+		Los Díaz
+		Los Liberales
+		Los Caribes
+		Los Mangos
+		Los Higuitos
+		Los Nardos
+	Pérez
+		Pérez de León
+	Látigo
+		Látigo Chavez
+	Norte
+		Norte 23-1
+		Norte 23-2
+	Urdaneta
+		Urdaneta 
+	Centro
+		Centro Comercial Cepan, Urbanización Industrial Las Minas Norte
+		Centro Comercial Los Altos, Avenida Francisco Salias
+		Centro Comercial Litoral
+	Pascuál
+		Pascuál Navarro
+	Residencias
+		Residencias Covimetro
+	Javier
+		Javier Izturiza
+	F
+		3ª F Transversal Los Ruices
+	Cristóbal
+		Cristóbal Mendoza
+		Cristóbal Rójas
+	Intercomunal
+		Intercomunal de Mamera
+	Sector
+		Sector Quenda
+	Liceo
+		Liceo Aplicación
+	19
+		19 de Abril
+	Adolfo
+		Adolfo Ernest
+	Kilómetro
+		Kilómetro 4 Carretera Vieja Caracas - La Guaira
+		Kilómetro 7, Autopista Regional del Centro
+		Kilómetro 14 de La Panamericana
+		Kilómetro 15, Carretera Panamericana, recta de Las Minas
+	Ciudad
+		Ciudad Caribia
+	Complejo
+		Complejo de Piscinas
+	Bloque
+		Bloque 28 de UD-2
+		Bloque 25 y 26 de UD-2
+		Bloque 24 de UD-2
+		Bloque 24, 25 y 26 de UD-2
+	Crsto
+		Crsto Rey
+	Diego
+		Diego de Lozada
+	Paseo
+		Paseo Henrique Eraso
+		Paseo Waraira Repano
+		Paseo El Laguito
+		Paseo Los Ilustres
+	La
+		La Unión
+		La Ceiba
+		La Candelaria
+		La Amargura
+		La Laguna
+		La Industria
+		La Tinaja
+		La Guairita
+		La Línea
+		La Libertad
+		La Gonzalera, Carretera San Antonio - San Diego
+		La Rinconada
+		La Guaira
+		La Planicie
+		La Rotaria
+	DE
+		DE DELICIAS A BRILLANTE.
+	Piedra
+		Piedra Azul
+	Monseñor
+		Monseñor Grill
+		Monseñor Arias Blanco
+	Nicanor
+		Nicanor Bolét
+	Sierra
+		Sierra Maestra
+	lomas
+		lomas de prados del este
+	Oropeza
+		Oropeza Castillo
+	Real
+		Real de los Flores
+		Real de Simón Rodríguez
+		Real La Cañada
+		Real de las Adjuntas
+		Real de los Frailes
+		Real del Observatorio
+		Real de Sierra Maestra
+		Real del Carballo
+		Real de Montesano
+		Real de Antímano
+		Real de Chapellín
+		Real de Bella Vista
+		Real de los Jardines del Valle
+		Real de la Vega
+		Real de Sarría
+		Real Colombia
+	Estacionamiento
+		Estacionamiento Zona Comercial Los Castores
+	Bernardo
+		Bernardo Slimak
+	Santa
+		Santa Lucía
+		Santa Teresa de Jesús
+		Santa Isabel
+		Santa Margarita
+		Santa Rosa
+		Santa Ana
+	Las
+		Las Mercedes
+		Las Flores
+		Las Angustias
+		Las Tres Gracias
+		Las Vegas
+		Las Magnolias
+		Las Piedritas
+		Las Marías
+	Pueblo
+		Pueblo Nuevo
+	Simón
+		Simón Bolívar
+	Fermín
+		Fermín Toro
+	Alfredo
+		Alfredo Janh
+	Patio
+		Patio de Talleres
+	Makro
+		Makro La Yaguara
+	Bellas
+		Bellas Artes
+	Terrazas
+		Terrazas de Guaicoco
+		Terrazas de La Vega
+
+Unrecognized timestamp_types: 0
+
+Unrecognized lon_types: 0
+
+Unrecognized postcode_types: 2
+	10; 15
+	321; 1
+

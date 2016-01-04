@@ -1,0 +1,817 @@
+Unrecognized lat_types: 0
+
+Unrecognized city_types: 60
+	Carmen de Uria; 2
+	Mare; 2
+	10 de Marzo; 1
+	Ciudad Caribia; 3
+	Los Castores, San Antonio de los altos, Miranda, Venezuela; 50
+	Montaña Alta; 1
+	Parroquia San Juan; 1
+	San Diego de Los Altos; 3
+	Las Minas Norte; 1
+	Parroquia Catia la Mar; 7
+	Mamo; 1
+	Caraballeda; 3
+	Las Minas; 1
+	Parroquia San Antonio de los Altos; 38
+	Pariata; 7
+	Las Polonias; 1
+	Tanaguarenas; 3
+	Buena Vista; 3
+	caracas; 4
+	Mampote; 1
+	Urb. Sierra Brava, San Antonio de los Altos, Venezuela; 1
+	Parroquia Cecilio Acosta; 14
+	El Tigrillo; 1
+	Urbanización La Morita, Municipio Los Salias, Estado Miranda, Venezuela; 1
+	Charallave; 6
+	Catia la Mar; 2
+	Caribe; 1
+	Urbanización Industrial Las Minas Norte, San Antonio de Los Altos, Venezuela; 15
+	Playa Grande; 14
+	Parroquia San Antonio de Los Altos; 12
+	Tacoa; 1
+	Marapa; 1
+	Maiquetía; 74
+	San Antonio de los Altos; 3
+	Catia La Mar; 38
+	Montesano; 1
+	Guaracarumbo; 1
+	Parroquia Leoncio Martínez; 1
+	San Antonio de Los Altos; 5
+	Llano Alto; 1
+	Urb.El Caribe; 1
+	Los Teques; 48
+	Picure; 1
+	Maiquetia; 20
+	Parroquia 23 de Enero; 1
+	San Antonio de los altos; 2
+	Playa Grabde; 1
+	Carrizal; 8
+	Turumo; 1
+	Maracay; 2
+	Parroquia Carrizal; 7
+	Parroquia Los Teques; 1
+	Punta de Mulatos; 3
+	La Guaira; 18
+	Naiguatá; 3
+	El Cojo; 1
+	Playa Verde; 2
+	Week-end; 1
+	Macuto; 12
+	La Atlántida; 2
+
+Unrecognized state_types: 1
+	Vargas; 38
+
+Unrecognized country_types: 0
+
+Unrecognized street_types: 113
+	Mosen
+		Mosen Sol
+	Aeropuerto
+		Aeropuerto La Carlota
+	López
+		López de Ceballos
+	Boulevard
+		Boulevard Los Nuevos Teques
+	Buenos
+		Buenos Aires
+	23
+		23 de enero
+		23 de Enero
+	Oscar
+		Oscar Machado
+	Cecilio
+		Cecilio Acosta
+	Luis
+		Luis Razzetti
+	Parque
+		Parque Residencial La Quinta
+	Reinaldo
+		Reinaldo Jahn
+	Tunel
+		Tunel El Calvario
+	Prolongacion
+		Prolongacion Av. Fernando Peñalver
+	Av.Oeste
+		Av.Oeste 5
+	Adriana
+		Adriana Johanna
+	Cacique
+		Cacique Tiuna
+	C-4
+		C-4 de Caurimare
+	San
+		San Carlos
+		San José
+		San Fidel
+		San Mateo
+		San Pascual
+		San Rafael
+		San Antonio
+	Cristo
+		Cristo Rey
+	Rio
+		Rio de Janeiro
+	Caminería
+		Caminería del Parque
+		Caminería Zoo
+	Vía:
+		Vía: Terminal Nacional
+		Vía: Terminal Internacional
+	Maria
+		Maria Auxiliadora
+	Nicolás
+		Nicolás Copérnico
+	Zona
+		Zona 1
+	Hospital
+		Hospital José I. Baldó
+		Hospital Pérez Carreño
+	Bella
+		Bella Artes
+		Bella Vista
+	Conjunto
+		Conjunto Residencial Canagua
+	Sierra
+		Sierra Maestra
+	Álvarez
+		Álvarez Michaud
+	Sur
+		Sur 25
+	Dámaso
+		Dámaso Villalba
+	Cruz
+		Cruz verde
+	Mariscal
+		Mariscal Sucre
+	Carretera:
+		Carretera: Petare - Santa Lucia
+		Carretera: Sartenejas
+		Carretera: Caracas - Los Teques
+		Carretera: Panamericana
+	Vuelta
+		Vuelta al Casquillo
+	carretera
+		carretera Vieja Caracas - Los teques
+		carretera Caracas - El Junquito
+	Domingo
+		Domingo Luciani
+	Padre
+		Padre Machado
+	Km.
+		Km. 4 Carretera Vieja Caracas - La Guaira
+		Km. 7, Autopista Regional del Centro
+	Plaza
+		Plaza Caño Amarillo
+		Plaza Caracas
+		Plaza Diego Ibarra
+	Bárbaro
+		Bárbaro Rívas
+	Gran
+		Gran Avenida
+	Adrián
+		Adrián Rodríguez
+	El
+		El Matadero
+		El Empalme
+		El Buen Pastor
+		El Rosario
+		El Comercio
+		El Pasaje
+		El Recreo
+		El Parque
+		El Desvío
+		El Colegio
+		El Manguito
+		El Carmen
+		El Paseo
+		El Cristo
+		El limón
+		El Vigia
+		El Algodonal
+		El Cortijo
+		El Limón
+		El Bosque
+	Mirador
+		Mirador Boyacá
+	Estacionamiento
+		Estacionamiento Zona Comercial Los Castores
+	Boulevar
+		Boulevar de Catia / España
+		Boulevar Ruíz Pineda
+	Distribuidor:
+		Distribuidor: Antímano
+		Distribuidor: Cienpiés
+		Distribuidor: El Llanito
+		Distribuidor: La Bandera
+		Distribuidor: Altamira
+		Distribuidor: Caurimare
+		Distribuidor: Caricuao
+	Lisandro
+		Lisandro Alvarado
+	Río
+		Río Manaure
+	Sendero:
+		Sendero: Caracas - Galipán - Macuto
+	Pedro
+		Pedro Emilio Coll
+	Puente:
+		Puente: Unión
+		Puente: Los Leones
+	Juan
+		Juan Germán Róscio
+	Universidad
+		Universidad Metropolitana
+		Universidad Santa Maria
+	José
+		José Félix Rivas
+		José Manuel Sanz
+		José Félix Rívas
+	Los
+		Los hornos
+		Los Naranjos
+		Los Eucaliptos
+		Los Jardines
+		Los Cedros
+		Los Ángeles
+		Los Médanos
+		Los Laboratorios
+		Los Jabillos
+		Los Laureles
+		Los Manolos
+		Los Pinos
+		Los Estadios
+		Los Hornos
+		Los Cerritos
+		Los cedros
+		Los Chaguaramos
+		Los Díaz
+		Los Liberales
+		Los Caribes
+		Los Mangos
+		Los Higuitos
+		Los Nardos
+	Pérez
+		Pérez de León
+	Látigo
+		Látigo Chavez
+	Autopista:
+		Autopista: Francisco Fajardo
+		Autopista: Caracas - La Guaira
+	Norte
+		Norte 23-1
+		Norte 23-2
+	Urdaneta
+		Urdaneta 
+	Av.
+		Av. Principal de La Castellana
+		Av. Principal de La Hacienda
+		Av. Principal del Cafetal
+		Av. Roosevelt
+		Av. LAs Acacias
+		Av. Quito
+		Av. Aeropuerto
+		Av. El Cuartel
+		Av. Puente Hierro
+		Av. Las Acacias
+		Av. Sorocaima
+		Av. Santa Belén
+		Av. Circunvalación
+		Av. Nueva Granada
+		Av. Santa María
+		Av. Principal de San Marino
+		Av. Aristides Calvani
+		Av. Vollmer
+		3ª Av. de Altamira
+		Av. San Sebastián
+		Av. Principal de la Hacienda
+		Av. Santiago de León
+		Av. Teherán
+		3ª Av. de Santa Eduvigis
+		Av. Intercomunal de Antímano
+		Av. Mahatma Gandhi
+		2ª Av. Los Palos Grandes
+		Av. Principal de Santa Sofia
+		Av. Alejandro Carrasquel
+		Av. San Juan Bosco
+		Av. Principal de Santa Marta
+		Av. Alameda
+		Av. Principal Las Vegas de Petare
+		Av. El Buen Pastor
+		Av. Caicara
+		Av. Norte
+		Av. Caroní
+		Av. Sur
+		Av. Principal Santa Sofia
+		Av. Veracrúz
+		Av. Principal de la Floresta
+		Av. Naiguatá
+		5ª Av. de Montecristo
+		Av. Leonardo Ruiz Pineda
+		Av. El Tigre
+		Av. Urdaneta
+		Av. San Franciso
+		Av. Francisco de Miranda
+		Av. Principal de la Yaguara
+		Av. La Salle
+		4ª Av. Los Palos Grandes
+		Av. Simón Planas
+		Av. Panteón
+		Av. 1 de Bello Monte
+		1ª Av. de Santa Eduvigis
+		Av. interna Fuerte Tiuna
+		Av. 2 Las Flores
+		Av. Buena Vista
+		Av. José María Vargas
+		Av. Universidad
+		Av. Luís de Camoes
+		Av. José Martí
+		Av. José Félix Sosa
+		Av. Mara
+		Av. Francisco Solano
+		Av. Las Estancias
+		Av. Los Manguitos
+		Av. Juan Felipe
+		Av. Soublette
+		Av. Principal de Ruíz Pineda
+		Av. Caurimare
+		Av. Principal El Cafetal
+		Av. Baruta
+		Av. D de Las Fuentes
+		Av. Oeste 13
+		Av. Oeste 11
+		Av. La Guairita
+		Av. Principal de Los Ruices
+		2ª Av. de Catia
+		3ª Av. de Catia
+		Av. Las Fuentes
+		Av. Carlos Raúl Villanueva
+		Av. Ávila
+		Av. Andrés Bello
+		Av. Los Castaños
+		Av. A de Caurimare
+		Av. Santa Ana
+		Av. Principal de Propatria
+		Av. Caracas
+		Av. Rio de Janeiro
+		Av. Sur Altamira
+		Av. Loira
+		Av. A de la Paz
+		Av. Agustin Codazi
+		Av. Libertador
+		Av. Colegio de Arquitectos
+		Av. Principal de Luis Hurtado
+		Av. Ginebra
+		Av. Los Cortijos
+		Av. Principal del Paraiso
+		Av. Lima
+		Av. Principal de Bello Monte
+		Av. Berrezbeitia
+		Av. Manuel Felipe Tovar
+		Av. Trujillo
+		Av. Bogotá
+		Av. El Empalme
+		Av. Teresa de La Parra
+		Av. José Ángel Lamas
+		Av. Beethoven
+		Av. Pichincha
+		Av. Andrés Galarraga
+		Av. La Estancia
+		Av. Uslar
+		Av. Luis Roche
+		3ª Av. Los Palos Grandes
+		Av. José Antonio Páez
+		Av. Principal de Campo Claro
+		Av. Principal del Cementerio
+		Av. Eugenio Mendoza
+		Av. Yare
+		Av. La Paz
+		Av. Sanatorio del Ávila
+		Av. Principal de Caricuao
+		Av. A-1 del Pinar
+		Av. Sanz
+		Av. Principal del Mirador
+		Av. A-2 del Pinar
+		Av. El Centro
+		Av. Este
+		Av. 21 de noviembre
+		Av. Del Ávila
+		2ª Av. de Santa Eduvigis
+		Av. Sur 2 bis
+		Av. Principal de La Urbina
+		Av. Oeste 5
+		Av. Oeste 6
+		Av. Oeste 7
+		Av. Oeste 0
+		Av. Francisco Pimentel
+		Av. Oeste 2
+		Av. Oeste 3
+		Av. El Estadium
+		Av. Oeste 8
+		Av. Oeste 9
+		Av. Circunvalación del Sol
+		Av. Oeste 20
+		Av. Corozo
+		Av. Maturín
+		Av. Centroamerica
+		Av. Marqués del Toro
+		Av. Principal de Casalta III
+		Av. Los Ilustres
+		Av. Las Palmas
+		Av. Louis Braille
+		Av. Nicaragua
+		Av. Ernesto Blohm
+		Av. San Miguel
+		Av. Roca Tarpeya
+		Av. Anauco
+		Av. Araure
+		Av. George Washington
+		Av. Principal de Boleita
+		Av. este 8 bis
+		Av. Del Parque 
+		Av. Leonardo Da Vinci
+		Av. Motatán
+		Av. García González Da Silva
+		Av. Oeste 4
+		Av. Norte 4
+		Av. Norte 2
+		Av. Norte 3
+		Av. Norte 1
+		Av. Chacao
+		Av. Universitaria
+		Av. Norte 9
+		Av. O Higgins
+		Av. Budapest
+		Av. 
+		Av. Rómulo Gallegos
+		Av. París
+		Av. La Estrella
+		Av. Bicentenaria
+		Av. 3 de Propatria
+		Av. La Facultad
+		Av. Intercomunal de Antimano
+		Av. Principal de Altavista
+		Av. Blandín
+		Av. Miguel Otero Silva
+		Av. Miguelangel
+		Av. Cajigal
+		Av. Principal de Montecristo
+		Av. Francisco Lazo Martí
+		Av. E de la Carlota
+		Av. Mohedano
+		Av. Guaicaipuro
+		Av. El Carmen
+		Av. Principal La Guairita
+		Av. Intercomunal de Coche
+		Av. La Rotaria
+		6ª Av. de Altamira
+		Av. Galipán
+		Av. Principal Country Club
+		2ª Av. de Campo Alegre
+		Av. Américo Vespúcio
+		Av. D de la Carlota
+		Av. 3 de las Delicias
+		Av. Paseo Los Ilustres
+		Av. Roma
+		Av. Este 7
+		Av. Este 8
+		Av. Leonardo Ruíz Pineda
+		Av. Los Erasos
+		Av. Este 5
+		Av. Este 6
+		Av. Principal de Sebucán
+		Av. Este 0
+		Av. Este 2
+		Av. Este 3
+		Av. Del Golf
+		Av. Principal de Bello Campo
+		Av. Este 18
+		Av. Morán
+		Av. Guayana
+		Av. Nueva York
+		Av. Los Chorros
+		2ª Av. de Montalbán
+		Av. Tamanaco
+		Av. E del Pinar
+		Av. Orinoco
+		Av. Este 11
+		Av. México
+		Av. 2 Los Cortijos
+		Av. Oropeza Castillo
+		Av. San Felipe
+		Av. Principal Los Cortijos
+		Av. Víctor Batista
+		Av. Santos Erminy
+		Av. Los Mangos
+		Av. Perimetral
+		Av. 2 de las Delicias
+		Av. Álamo
+		Av. Principal de la Haciendita
+		Av. Principal de Playa Grande
+		Av. San Carlos
+		Av. Principal de UD-4
+		Av. Oeste 16
+		Av. Oeste 14
+		Av. Oeste 12
+		Av. Cataluña
+		Av. Principal del Bosque
+		Av. La Haya
+		Av. San Gabriel
+		Av. Oeste 18
+		1ª Av. de Montecristo
+		Av. Sur 21
+		Av. El Paují
+		Av. Sur 23
+		Av. Sur 25
+		Av. Principal de Caurimare
+		Av. Principal de Casalta
+		Av. Minerva
+		Av. El Sequión
+		Av. Gran colombia
+		Av. Casanova
+		5ª Av. de Catia
+		Av. Central de Playa Grande
+		Av. Este 12 bis
+		7ª Av. de Catia
+		Av. Hollywood
+		Av. Sur 11 bis
+		Av. Varsovia
+		Av. Principal de Las Mercedes
+		Av. Los Laureles
+		Av. Este 14
+		Av. Este 15
+		Av. Este 12
+		Av. Este 13
+		Av. Milán
+		Av. José María España
+		Av. San Martín
+		Av. Sol
+		Av. A de la Carlota
+		Av. San José del Ávila
+		Av. Carlos Soublette
+		Av. Papelón
+		Av. El Ejercito
+		Av. San Ignacio de Loyola
+		3ª Av. de Montalbán
+		Av. Guarateri
+		Av. Las Repúblicas
+		Av. Hospital
+		Av. C de Caurimare
+		Av. Arturo Michelena
+		Av. Bolívar
+		Av. Gamboa
+		Av. Venezuela
+		Av. Principal de Alto Prado
+		Av. 1 Los Mangos
+		Av. Los Samanes
+		Av. Fuerzas Armadas
+		Av. Horacio Lemoine
+		Av. 1
+		Av. Las Mercedes
+		Av. Principal de los Chorros
+		Av. Principal de Maripérez
+		2ª  Av. de Campo Alegre
+		Av. Los Próceres
+		Av. Los Pinos
+		Av. Santander
+		Av. Intercomunal del Valle
+		Av. Washington
+		Av. Juan Bautista Arismendi
+		Av. Miranda
+		Av. Capitán Felipe Esteves
+		Av. Presidente Medina
+		7ª Av. de Altamira
+		Av. Principal de Macaracuay
+		Av. La Armada
+		Av. Neverí
+		Av. Los Jabillos
+		Av. Norte 10
+		Av. Norte 11
+		Av. Norte 13
+		Av. Norte 15
+		Av. Norte 17
+		Av. Principal Brisas de Oriente
+		Av. Bolivia
+		Av. Guzmán Blanco
+		Av. Sur 2
+		Av. Sur 3
+		Av. Sur 1
+		Av. Sur 4
+		Av. Sur 5
+		Av. Central
+		Av. Sur 8
+		Av. Sur 9
+		Av. España
+		Av. Trieste
+		2ª Av. de Las Fuentes
+		Av. La Cortada de Catia
+		Av. El Parque
+		Av. José Antonio Paez
+		Av. José Felix Sosa
+		Av. Los Proceres
+		Av. Sucre
+		Av. Principal del Algodonal
+		Av. Baralt
+		Av. Juan Pablo II
+		Av. Ayacucho
+		Av. Los Bucares
+		1ª Av. Los Palos Grandes
+		Av. Paseo de la Resistencia Indígena
+		Av. Ingenieria
+		Av. B de la Carlota
+		Av. Principal de Prados del Este
+		Av. Guzman Blanco
+		Av. Principal del Estadio
+		Av. Chama
+		Av. Don Bosco
+		Av. Palmarito
+		Av. Este 10 bis
+		Av. Principal Lebrún
+		Av. Sur 13 bis
+		Av. Carabobo
+		Av. C de la Carlota
+		Av. Mónaco
+		Av. Boyacá
+		Av. Principal Sierra Brava
+		Av. Principal de La Carlota
+		Av. Lecuna
+		Av. Cantaura
+		Av. Instituto
+		Av. Ciudad Universitaria
+		Av. del Parque
+		4ª Av. de Altamira
+		Av. Principal de la Trinidad
+		Av. Río Paragua
+		Av. Sur 14
+		Av. Sur 16
+		Av. Sur 17
+		Av. Sur 10
+		Av. Sur 12
+		Av. Sur 13
+		Av. Sur 19
+	Pascuál
+		Pascuál Navarro
+	Residencias
+		Residencias Covimetro
+	Javier
+		Javier Izturiza
+	F
+		3ª F Transversal Los Ruices
+	CC
+		CC Cepan, Urb. Industrial Las Minas Norte
+		CC Litoral
+	Klm
+		Klm 14 de La Panamericana
+	Cristóbal
+		Cristóbal Mendoza
+		Cristóbal Rójas
+	Km
+		Km 15, Carretera Panamericana, recta de Las Minas
+	Intercomunal
+		Intercomunal de Mamera
+	Sector
+		Sector Quenda
+	Liceo
+		Liceo Aplicación
+	19
+		19 de Abril
+	Adolfo
+		Adolfo Ernest
+	Rufino
+		Rufino Blanco
+	Ciudad
+		Ciudad Caribia
+	Complejo
+		Complejo de Piscinas
+	Bloque
+		Bloque 28 de UD-2
+		Bloque 25 y 26 de UD-2
+		Bloque 24 de UD-2
+		Bloque 24, 25 y 26 de UD-2
+	Crsto
+		Crsto Rey
+	Diego
+		Diego de Lozada
+	Paseo
+		Paseo Henrique Eraso
+		Paseo Waraira Repano
+		Paseo El Laguito
+		Paseo Los Ilustres
+	La
+		La Unión
+		La Ceiba
+		La Candelaria
+		La Amargura
+		La Laguna
+		La Industria
+		La Tinaja
+		La Guairita
+		La Línea
+		La Libertad
+		La Gonzalera, Carretera San Antonio - San Diego
+		La Rinconada
+		La Guaira
+		La Planicie
+		La Rotaria
+	DE
+		DE DELICIAS A BRILLANTE.
+	Piedra
+		Piedra Azul
+	Av.Fuerzas
+		Av.Fuerzas Armadas
+	Nicanor
+		Nicanor Bolét
+	Monseñor
+		Monseñor Grill
+		Monseñor Arias Blanco
+	lomas
+		lomas de prados del este
+	Oropeza
+		Oropeza Castillo
+	Real
+		Real de los Flores
+		Real de Simón Rodríguez
+		Real La Cañada
+		Real de las Adjuntas
+		Real de los Frailes
+		Real del Observatorio
+		Real de Sierra Maestra
+		Real del Carballo
+		Real de Montesano
+		Real de Antímano
+		Real de Chapellín
+		Real de Bella Vista
+		Real de los Jardines del Valle
+		Real de la Vega
+		Real de Sarría
+		Real Colombia
+	Guzmán
+		Guzmán Blanco
+	Bernardo
+		Bernardo Slimak
+	Vìa
+		Vìa Terminal Internacional
+	Av.Principal
+		Av.Principal del Bosque
+	Santa
+		Santa Lucía
+		Santa Teresa de Jesús
+		Santa Isabel
+		Santa Margarita
+		Santa Rosa
+		Santa Ana
+	Bulevard
+		Bulevard de Sabana Grande
+	Las
+		Las Mercedes
+		Las Flores
+		Las Angustias
+		Las Tres Gracias
+		Las Vegas
+		Las Magnolias
+		Las Piedritas
+		Las Marías
+	Pueblo
+		Pueblo Nuevo
+	Simón
+		Simón Bolívar
+	C.C.
+		C.C. Los Altos, Avenida Francisco Salias
+	Fermín
+		Fermín Toro
+	Alfredo
+		Alfredo Janh
+	Bolevar
+		Bolevar del Cementerio
+	Patio
+		Patio de Talleres
+	Makro
+		Makro La Yaguara
+	2ªTransversal
+		2ªTransversal Los Palos Grandes
+	Bellas
+		Bellas Artes
+	calle
+		calle tacagua
+	Av
+		Av Alejandro Carrasquel
+		Av Principal de Buena Vista
+		Av Principal Brisas de Oriente
+		Av Principal De Week End
+	Terrazas
+		Terrazas de Guaicoco
+		Terrazas de La Vega
+
+Unrecognized timestamp_types: 0
+
+Unrecognized lon_types: 0
+
+Unrecognized postcode_types: 4
+	1010-A; 1
+	10; 18
+	321; 1
+	Bloque 14 de UD-3; 1
+
