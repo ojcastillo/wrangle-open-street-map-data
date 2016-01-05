@@ -8,6 +8,8 @@ import sys
 import tempfile
 import xml.etree.cElementTree as ET
 
+from pymongo import MongoClient
+
 """Functions"""
 
 
@@ -137,3 +139,14 @@ def osm_general_stats(osm_file):
                 stats['tag_keys'][element.attrib['k']] = 0
             stats['tag_keys'][element.attrib['k']] += 1
     return stats
+
+
+def get_db(db_name):
+    """
+    Returns an instance to a local Mongo database
+    :param db_name: String identifier of the database
+    :return: Mongo database
+    """
+    client = MongoClient('localhost:27017')
+    db = client[db_name]
+    return db
