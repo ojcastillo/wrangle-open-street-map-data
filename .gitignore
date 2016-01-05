@@ -1,0 +1,4 @@
+#General files to avoid
+.DS_Store
+.idea
+*.pyc
