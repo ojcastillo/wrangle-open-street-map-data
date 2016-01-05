@@ -6,7 +6,6 @@ import xml.etree.cElementTree as ET
 import re
 import codecs
 import json
-import os
 
 """GLOBALS"""
 
@@ -141,7 +140,7 @@ def shape_element(element):
         return None
 
 
-def process_map(file_in, pretty=False, json_dir='resources'):
+def process_map(file_in, pretty=False):
     """
     Generates a list of JSON structures for a subset of elements
     in the provided OSM XML file
@@ -151,15 +150,15 @@ def process_map(file_in, pretty=False, json_dir='resources'):
     :param json_dir: Folder to the location of the
     :return: List of JSON structures
     """
-    file_out = os.path.join(json_dir, "{0}.json".format(file_in))
+    file_out = "{0}.json".format(file_in)
     data = []
-    with codecs.open(file_out, "w") as fo:
-        for _, element in ET.iterparse(file_in):
+    for _, element in ET.iterparse(file_in):
             el = shape_element(element)
             if el:
                 data.append(el)
-                if pretty:
-                    fo.write(json.dumps(el, indent=2)+"\n")
-                else:
-                    fo.write(json.dumps(el) + "\n")
+    with open(file_out, 'w') as json_f:
+        if pretty:
+            json.dump(data, json_f, indent=2)
+        else:
+            json.dump(data, json_f)
     return data
