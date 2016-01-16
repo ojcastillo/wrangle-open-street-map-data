@@ -150,3 +150,36 @@ def get_db(db_name):
     client = MongoClient('localhost:27017')
     db = client[db_name]
     return db
+
+
+def get_element(osm_file, tags=('node', 'way', 'relation')):
+    """Yield element if it is the right type of tag
+
+    Reference:
+    http://stackoverflow.com/questions/3095434/inserting-newlines-in-xml-file-generated-via-xml-etree-elementtree-in-python
+    """
+    context = ET.iterparse(osm_file, events=('start', 'end'))
+    _, root = next(context)
+    for event, elem in context:
+        if event == 'end' and elem.tag in tags:
+            yield elem
+            root.clear()
+
+
+def generate_submission_sample(map_path, sample_path):
+    """
+    Generates a sample version of a provided OSM map intended for submission
+    to Udacity
+    :param map_path: Path to OSM file for which the sample will be created
+    :param sample_path: Path to where the OSM sample will be saved
+    """
+    with open(sample_path, 'wb') as output:
+        output.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+        output.write('<osm>\n  ')
+
+        # Write every 10th top level element
+        for i, element in enumerate(get_element(map_path)):
+            if i % 10 == 0:
+                output.write(ET.tostring(element, encoding='utf-8'))
+
+        output.write('</osm>')
