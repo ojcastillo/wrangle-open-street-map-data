@@ -102,7 +102,7 @@ def write_stats(osm_file, save_path):
 def print_elements_with_tag_value(osm_file, tag_value):
     elements = utils.find_elements_with_tag_value(osm_file, 'addr:street', tag_value)
     for element in elements:
-        utils.pprint_element(element)
+        utils.pretty_element(element)
 
 
 ### Auditing ###
