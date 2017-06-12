@@ -3,6 +3,8 @@
 
 __author__ = 'orlando'
 
+import datetime
+import numpy as np
 import subprocess
 import sys
 import tempfile
@@ -188,3 +190,33 @@ def generate_submission_sample(map_path, sample_path):
                 output.write(ET.tostring(element, encoding='utf-8'))
 
         output.write('</osm>')
+
+
+def update_stats(db_name, collection):
+    """
+    Calculates both the seconds average and deviation of the time
+    of element updates.
+
+    :param db_name: name of the mongodb db
+    :param collection: name of the target collection in the mongodb db
+    :return: Tuple with (avg, std)
+    """
+    db = get_db(db_name)
+    ts_list = list(db[collection].aggregate([{
+        "$project": {
+            "_id": 0,
+            "ts": "$created.timestamp"
+        }
+    }, {
+        "$sort": {
+            "ts": -1
+        }
+    }]))
+    ts_diff = []
+    for idx in xrange(len(ts_list) - 1):
+        fmt = '%Y-%m-%dT%H:%M:%SZ'
+        t1 = datetime.datetime.strptime(ts_list[idx]['ts'], fmt)
+        t2 = datetime.datetime.strptime(ts_list[idx + 1]['ts'], fmt)
+        delta = t1 - t2
+        ts_diff.append(delta.total_seconds())
+    return np.average(ts_diff), np.std(ts_diff)
