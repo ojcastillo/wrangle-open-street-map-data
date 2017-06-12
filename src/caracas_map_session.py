@@ -16,12 +16,17 @@ from collections import defaultdict
 ORIGINAL_OSM_MAP_FILE = 'resources/caracas_venezuela.osm'
 CLEAN_OSM_MAP_FILE = 'resources/caracas_venezuela_clean.osm'
 
-STREET_TYPE_REGEX = re.compile(r'^(?:\d+[ª.] +)?(\S+) +', re.IGNORECASE | re.UNICODE)
+STREET_TYPE_REGEX = re.compile(r'^(?:\d+[ª.] +)?(\S+) +', re.IGNORECASE |
+                               re.UNICODE)
 POST_CODE_REGEX = re.compile(r'^\d{4}$')
 
-EXPECTED_STREET_TYPES = ["Calle", "Avenida", "Bulevar", "Autopista", "Redoma", "Carretera", "Acceso", "Entrada",
-                         "Transversal", "Vereda", "Cota", "Esquina", "Troncal", "Distribuidor", u"Vía".encode('utf-8'),
-                         u"Túnel".encode('utf-8'), u"Prolongación".encode('utf-8'), u"Callejón".encode('utf-8')]
+EXPECTED_STREET_TYPES = ["Calle", "Avenida", "Bulevar", "Autopista", "Redoma",
+                         "Carretera", "Acceso", "Entrada", "Transversal",
+                         "Vereda", "Cota", "Esquina", "Troncal",
+                         "Distribuidor", u"Vía".encode('utf-8'),
+                         u"Túnel".encode('utf-8'),
+                         u"Prolongación".encode('utf-8'),
+                         u"Callejón".encode('utf-8')]
 
 STREET_TYPES_CLEAN_MAPPING = {
     "Av. ": "Avenida ",
@@ -50,10 +55,15 @@ STREET_TYPES_CLEAN_MAPPING = {
     "Tunel ": u"Túnel ".encode('utf-8')
 }
 
-STREET_TYPES_CLEAN_ORDER = ["Av. ", "Av.", "Av ", "C.C. ", "CC ", "Km. ", "Km ", "Klm ", "Urb. ", "Urb ",
-                            u"2ªTransversal ".encode('utf-8'), u"Vìa ".encode('utf-8'), u"Vía:".encode('utf-8'),
-                            "Prolongacion ", "Carretera: ", "carretera ", "Autopista: ", "calle ", "Bulevard ",
-                            "Bolevar ", "Boulevar ", "Boulevard ", "Distribuidor: ", "Tunel "]
+STREET_TYPES_CLEAN_ORDER = ["Av. ", "Av.", "Av ", "C.C. ", "CC ", "Km. ",
+                            "Km ", "Klm ", "Urb. ", "Urb ",
+                            u"2ªTransversal ".encode('utf-8'),
+                            u"Vìa ".encode('utf-8'),
+                            u"Vía:".encode('utf-8'),
+                            "Prolongacion ", "Carretera: ", "carretera ",
+                            "Autopista: ", "calle ", "Bulevard ",
+                            "Bolevar ", "Boulevar ", "Boulevard ",
+                            "Distribuidor: ", "Tunel "]
 
 ATTRIBUTES_TYPE_MAP = {
     "lon": 'float',
@@ -90,7 +100,7 @@ CUSTOM_TAG_VALUES_MAPPING = {
 
 """FUNCTIONS"""
 
-### Utilities ###
+# Utilities
 
 
 def write_stats(osm_file, save_path):
@@ -100,12 +110,13 @@ def write_stats(osm_file, save_path):
 
 
 def print_elements_with_tag_value(osm_file, tag_value):
-    elements = utils.find_elements_with_tag_value(osm_file, 'addr:street', tag_value)
+    elements = utils.find_elements_with_tag_value(
+        osm_file, 'addr:street', tag_value)
     for element in elements:
         utils.pretty_element(element)
 
 
-### Auditing ###
+# Auditing
 
 def audit_street_type(audit_dict, street_name):
     m = STREET_TYPE_REGEX.search(street_name)
@@ -137,14 +148,15 @@ def audit_state(audit_dict, tag_value):
 
 
 def audit_element(element, audit_dict):
-    #Auditing attributes types
+    # Auditing attributes types
     for field, type_str in ATTRIBUTES_TYPE_MAP.iteritems():
         if field in element.attrib:
             try:
                 if type_str == "float":
-                    _ = float(element.attrib[field])
+                    float(element.attrib[field])
                 elif type_str == "datetime":
-                    _ = datetime.datetime.strptime(element.attrib[field], "%Y-%m-%dT%H:%M:%SZ")
+                    datetime.datetime.strptime(
+                        element.attrib[field], "%Y-%m-%dT%H:%M:%SZ")
             except ValueError:
                 audit_dict[field + "_types"].add(element.attrib[field])
 
@@ -195,12 +207,13 @@ def save_audit(osm_file, save_path):
                     if type(value) == set:
                         file_o.write(u'\t{}\n'.format(value_type))
                         for value_member in value:
-                                file_o.write(u'\t\t{}\n'.format(value_member))
+                            file_o.write(u'\t\t{}\n'.format(value_member))
                     else:
                         file_o.write(u'\t{}; {}\n'.format(value_type, value))
             file_o.write('\n')
 
-## Cleaning ###
+# Cleaning
+
 
 def clean_street_name(street_name):
     # Replace abbreviations with full street types
@@ -217,6 +230,7 @@ def clean_city_value(city_value):
     if city_value.lower() == 'caracas':
         return 'Caracas'
     return city_value
+
 
 def clean_element(element, clean_summary):
     # Create a map for child tags to make it easier cross reference tags
@@ -238,33 +252,43 @@ def clean_element(element, clean_summary):
             clean_summary['deleted_tag_types'][summary_key] = 1
         else:
             if tag_key in CUSTOM_TAG_VALUES_MAPPING:
-                # We allow the assignment of a custom value to a set of tags if we match a substring of another tag
-                # value. For example, we might want to force a postal code based on the address value.
-                for sub_str, map_dict in CUSTOM_TAG_VALUES_MAPPING[tag_key].iteritems():
+                # We allow the assignment of a custom value to a set of tags
+                # if we match a substring of another tag value. For example, we
+                # might want to force a postal code based on the address value.
+                tag_mapping = CUSTOM_TAG_VALUES_MAPPING[tag_key]
+                for sub_str, map_dict in tag_mapping.iteritems():
                     if sub_str in tag_value.encode('utf-8'):
                         for ref_key, custom_value in map_dict.iteritems():
                             if ref_key in child_tags_map:
-                                if child_tags_map[ref_key].attrib['v'] != custom_value:
-                                    child_tags_map[ref_key].attrib['v'] = custom_value
-                                    summary_key = u"<{}={},{}={}>".format(tag_key, tag_value, ref_key, custom_value)
-                                    clean_summary['custom_tag_values'][summary_key] += 1
+                                ref_value = child_tags_map[ref_key].attrib['v']
+                                if ref_value != custom_value:
+                                    child_tags_map[ref_key].attrib[
+                                        'v'] = custom_value
+                                    summary_key = u"<{}={},{}={}>".format(
+                                        tag_key, tag_value, ref_key,
+                                        custom_value)
+                                    clean_summary['custom_tag_values'][
+                                        summary_key] += 1
                         break
             if tag_key == "addr:street":
                 clean_value = clean_street_name(tag_value)
                 if clean_value != tag_value:
                     tag.attrib['v'] = clean_value
-                    clean_summary['updated_street_types'][tag_value] = clean_value
+                    clean_summary['updated_street_types'][
+                        tag_value] = clean_value
             if tag_key == "addr:city":
                 clean_value = clean_city_value(tag_value)
                 if clean_value != tag_value:
                     tag.attrib['v'] = clean_value
-                    clean_summary['updated_city_types'][tag_value] = clean_value
+                    clean_summary['updated_city_types'][
+                        tag_value] = clean_value
             if tag_key in ATTRIBUTES_CLEAN_KEY_MAPPING:
                 tag.attrib['k'] = ATTRIBUTES_CLEAN_KEY_MAPPING[tag_key]
                 clean_summary['updated_attribute_types'][tag_key] += 1
 
 
-def clean_up_map(original_osm=ORIGINAL_OSM_MAP_FILE, clean_osm=CLEAN_OSM_MAP_FILE):
+def clean_up_map(original_osm=ORIGINAL_OSM_MAP_FILE,
+                 clean_osm=CLEAN_OSM_MAP_FILE):
     # Get an iterable
     context = ET.iterparse(original_osm, events=("start", "end"))
 
@@ -293,7 +317,8 @@ def clean_up_map(original_osm=ORIGINAL_OSM_MAP_FILE, clean_osm=CLEAN_OSM_MAP_FIL
     return clean_summary
 
 
-def generate_clean_summary(save_path, original_osm=ORIGINAL_OSM_MAP_FILE, clean_osm=CLEAN_OSM_MAP_FILE):
+def generate_clean_summary(save_path, original_osm=ORIGINAL_OSM_MAP_FILE,
+                           clean_osm=CLEAN_OSM_MAP_FILE):
     clean_summary = clean_up_map(original_osm, clean_osm)
     with codecs.open(save_path, mode='w', encoding='utf-8') as file_o:
         for key, value in clean_summary.iteritems():
@@ -301,4 +326,3 @@ def generate_clean_summary(save_path, original_osm=ORIGINAL_OSM_MAP_FILE, clean_
             for field, change in value.iteritems():
                 file_o.write(u'\t{}: {}\n'.format(field, change))
             file_o.write('\n')
-

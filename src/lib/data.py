@@ -4,7 +4,6 @@ __author__ = 'orlando'
 
 import xml.etree.cElementTree as ET
 import re
-import codecs
 import json
 
 """GLOBALS"""
@@ -15,27 +14,32 @@ LOWER_COLON_REGEX = re.compile(r'^([a-z]|_)*:([a-z]|_)*$')
 PROBLEMATIC_CHARS_REGEX = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 
 # Helper lists
-JSON_CREATED_KEY_CHILDREN = ["version", "changeset", "timestamp", "user", "uid"]
+JSON_CREATED_KEY_CHILDREN = ["version",
+                             "changeset", "timestamp", "user", "uid"]
 
 """ Functions"""
 
+
 def shape_element(element):
-    """ Transforms the shape of the provided OSM XML element into a json structure.
+    """ Transforms the shape of a provided OSM XML element into json.
     For more details about the format of an input element, you can visit
     https://wiki.openstreetmap.org/wiki/Elements.
 
     The transformation takes into consideration the following:
 
     - only the top level tags "node" and "way" are transformed
-    - all attributes of "node" and "way" are turned into regular key/value pairs, except:
-        - attributes in the JSON_CREATED_KEY_CHILDS are added under a key "created"
-        - attributes for latitude and longitude are added to a "pos" array of floats,
-          for use in geospacial indexing
-    - if second level tag "k" value contains problematic characters as defined by
-    PROBLEMATIC_CHARS_REGEX, it will be ignored
-    - if second level tag "k" value starts with "addr:", it will added to a dictionary "address"
-    - if second level tag "k" value does not start with "addr:", but contains ":", it will be
-      processed same as any other tag.
+    - all attributes of "node" and "way" are turned into regular
+    key/value pairs, except:
+        - attributes in the JSON_CREATED_KEY_CHILDS are added
+        under a key "created"
+        - attributes for latitude and longitude are added to a "pos" array of
+        floats, for use in geospacial indexing
+    - if second level tag "k" value contains problematic characters as defined
+    by PROBLEMATIC_CHARS_REGEX, it will be ignored
+    - if second level tag "k" value starts with "addr:", it will added to a
+    dictionary "address"
+    - if second level tag "k" value does not start with "addr:", but contains
+    ":", it will be processed same as any other tag.
     - if there is a second ":" that separates the type/direction of a street,
       the tag will be ignored, for example:
 
@@ -92,8 +96,8 @@ def shape_element(element):
         "phone": "1 (773)-271-5176"
     }
 
-    Note that function won't try to audit the data in any form, for that please check the
-    functions in src/audit.py
+    Note that function won't try to audit the data in any form, for that please
+    check the functions in src/caracas_map_session.py
     """
     node = {}
     if element.tag == "node" or element.tag == "way":
@@ -146,16 +150,16 @@ def process_map(file_in, pretty=False):
     in the provided OSM XML file
 
     :param file_in: Filepath to OSM XML file
-    :param pretty: If True, it will write the data into a file in a pretty format
+    :param pretty: If True, will write the data into a file in a pretty format
     :param json_dir: Folder to the location of the
     :return: List of JSON structures
     """
     file_out = "{0}.json".format(file_in)
     data = []
     for _, element in ET.iterparse(file_in):
-            el = shape_element(element)
-            if el:
-                data.append(el)
+        el = shape_element(element)
+        if el:
+            data.append(el)
     with open(file_out, 'w') as json_f:
         if pretty:
             json.dump(data, json_f, indent=2)

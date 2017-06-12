@@ -22,7 +22,7 @@ Reason for choice:
 
     I was born and raised in Venezuela, so when I was given the chance to select a region of the world, I naturally
     gravitated towards it. Caracas was the only city in Venezuela for which I could find a map extract, which is why
-    I selected it. Additionally, I really wanted to a explore a non-english dataset to understnad the challenges that
+    I selected it. Additionally, I really wanted to a explore a non-english dataset to understand the challenges that
     other encodings might bring, and since Spanish is the main language in Venezuela, that reinforced my decision.
 
 References:

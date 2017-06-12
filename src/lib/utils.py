@@ -13,13 +13,15 @@ from pymongo import MongoClient
 """Functions"""
 
 
-def print_head(osm_file, size=5, tags=None, attribs=None, child_tags=None, less=True):
+def print_head(osm_file, size=5, tags=None, attribs=None,
+               child_tags=None, less=True):
     """ Prints OSM elements that match specified conditions in a pretty format
 
     :param osm_file: File path to OSM XML file
     :param size: Integer size of head - Use -1 if all elements are desired
     :param tags: List with top level tags to print
-    :param attribs: List with required attributes to print or None for no filter
+    :param attribs: List with required attributes to print or
+                    None for no filter
     :param child_tags: List with required child tag keys to print
     :param less: If True it will use the UNIX utility 'less' for printing
     """
@@ -54,7 +56,8 @@ def print_head(osm_file, size=5, tags=None, attribs=None, child_tags=None, less=
             for tag in element.iter("tag"):
                 if child_tags is not None and tag.attrib['k'] in child_tags:
                     should_print_log = True
-                element_log += u'        {}: {}\n'.format(tag.attrib['k'], tag.attrib['v'])
+                element_log += u'        {}: {}\n'.format(
+                    tag.attrib['k'], tag.attrib['v'])
 
             if should_print_log:
                 print element_log.encode('utf-8')
@@ -72,7 +75,8 @@ def print_head(osm_file, size=5, tags=None, attribs=None, child_tags=None, less=
             sys.stdout = sys.__stdout__
 
 
-def find_elements_with_tag_value(osm_file, tag_key, tag_value, should_print=True):
+def find_elements_with_tag_value(osm_file, tag_key, tag_value,
+                                 should_print=True):
     """ Returns a list of XML elements with child tags that have a
     tag_value for the tag_key
 
@@ -105,7 +109,8 @@ def pretty_element(element):
         pretty_str += u'        {}: {}\n'.format(attrib, value)
     pretty_str += u'    Child tags:\n'
     for tag in element.iter("tag"):
-        pretty_str += u'        {}: {}\n'.format(tag.attrib['k'], tag.attrib['v'])
+        pretty_str += u'        {}: {}\n'.format(
+            tag.attrib['k'], tag.attrib['v'])
     return pretty_str
 
 
